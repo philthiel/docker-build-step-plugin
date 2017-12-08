@@ -1,0 +1,13 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson"
+    xmlns:f="/lib/form">
+
+    <f:entry>
+        Remove all containers that are exited or dead
+    </f:entry>
+
+    <f:advanced>
+        <f:entry field="removeVolumes" title="Remove volumes" description="Remove the volumes associated with the container." >
+            <f:checkbox />
+        </f:entry>
+    </f:advanced>
+</j:jelly>
